@@ -1,7 +1,7 @@
 # Staff Training Manual (self-paced)
 
 **Audience:** New and returning staff  
-**Version:** CETECH Delivery Engine 1.0.0-rc.5  
+**Version:** CETECH Delivery Engine 1.0.0-rc.6  
 **Everyday home:** Delivery Engine → Overview  
 **Practice products:** Simple QA **#39705**; Variable QA **#39717** / A **#39718** / B **#39719**
 
@@ -241,7 +241,7 @@ Customers pay the fee shown at checkout. Missing charges must not become silent 
 Visual Walkthrough sections 5–6 and 16. Playbook use cases 14 and 16.
 
 ## 4. Do it yourself
-Open Delivery Areas and Delivery Charges read-only. Find how an area and an option pair to a fee. Do not edit production rates without authorisation.
+Open Delivery Areas and Delivery Charges read-only. Find how an area and an option pair to a fee. If an area uses **State / Region**, notice that the checkout name and the short code (for example `Greater Accra` and `AA`) are the same place. Do not edit production rates without authorisation.
 
 ## 5. Check your result
 You can describe: customer address → area match → charge for selected option → shipping line (public option label + amount).

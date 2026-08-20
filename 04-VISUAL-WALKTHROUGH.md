@@ -1,8 +1,8 @@
 # Visual Walkthrough (written screen tour)
 
 **Audience:** New staff and trainers  
-**Version:** 1.0.0-rc.5  
-**Screenshots:** Deferred. This tour is written against the live RC.5 screens. Do not use leftover older images as teaching truth.
+**Version:** 1.0.0-rc.6  
+**Screenshots:** Deferred. This tour is written against the live 1.0.0-rc.6 screens. Do not use leftover older images as teaching truth.
 
 Walk this path on the live site (read-only unless a trainer authorises a QA edit):
 
@@ -94,7 +94,7 @@ Assigned products/defaults can show the new label.
 Where the store delivers (condition builder).
 
 **What matters**  
-Address matching. Advanced matching (mode/priority) stays collapsed until needed.
+Address matching. For **State / Region**, the checkout name and that country’s short code both match (for example Ghana `Greater Accra` and `AA`). Advanced matching (mode/priority) stays collapsed until needed.
 
 **Safely change**  
 Authorised geography updates; **Test an Address**.

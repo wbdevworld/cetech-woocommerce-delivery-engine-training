@@ -1,6 +1,6 @@
 # Trainer Guide
 
-**Audience:** People teaching staff to use CETECH Delivery Engine 1.0.0-rc.5  
+**Audience:** People teaching staff to use CETECH Delivery Engine 1.0.0-rc.6  
 **Companion course:** [05-STAFF-TRAINING-MANUAL](05-STAFF-TRAINING-MANUAL.md)
 
 Reading the guides is not enough. Trainees must demonstrate skills. Prefer: walk the [Visual Walkthrough](04-VISUAL-WALKTHROUGH.md) on live screens → practise on QA products.
@@ -40,6 +40,7 @@ Quick Start can be handed out before day one once setup is complete.
 | Preview Delivery Ready / Needs Attention | Modules 4, 11 |
 | Storefront compact selector (option + estimate only) | Module 8 |
 | Checkout shipping line uses public option label | Modules 7–8 |
+| Delivery Areas **Test an address** with region name and checkout short code (same area) | Module 7 |
 | Order Delivery information on #39721 or #39724 | Module 10 |
 | Everyday menu only; Settings needs authorisation | Module 12 |
 | Shipments list + one detail screen (when enabled) | Playbook 21–22 |

@@ -1,7 +1,7 @@
 # Complete Administrator Guide
 
 **Audience:** Administrators and authorised configuration staff  
-**Version:** CETECH Delivery Engine 1.0.0-rc.5  
+**Version:** CETECH Delivery Engine 1.0.0-rc.6  
 **Everyday home:** Delivery Engine → **Overview**  
 **Not everyday:** Technical Diagnostics, private supply screens, Advanced Settings
 
@@ -203,10 +203,10 @@ Administrators / authorised staff.
 Expanding coverage or fixing address matching.
 
 **Key fields**  
-Area name, geography (countries / states / postcodes via the condition builder). Match mode and priority stay under **Advanced matching**. Optional **Test an Address**.
+Area name, geography (countries / states / postcodes via the condition builder). For **State / Region**, the WooCommerce checkout name and that country’s short code both match (for example Ghana `Greater Accra` and `AA`). Match mode and priority stay under **Advanced matching**. Optional **Test an Address**.
 
 **Recommended**  
-Areas that match how you sell; test tricky addresses.
+Areas that match how you sell; test tricky addresses with both the region name and the checkout short code when a State / Region condition is used.
 
 **Steps**  
 Add/edit area → define conditions → test an address → ensure a Delivery Charge exists for each sellable option in that area.
@@ -218,7 +218,7 @@ Correct fee for their destination (together with Delivery Charges).
 Overlapping unclear areas; areas with no charge defined.
 
 **Related**  
-Delivery Charges; WooCommerce shipping zones (method availability). Add **Delivery** to every zone, including Rest of the World: [12 — How to use each menu](12-SETUP-CONFIGURE-AND-TEST.md#how-to-add-the-delivery-shipping-method-in-woocommerce).
+Delivery Charges; WooCommerce shipping zones (method availability). Add **Delivery** only to the zones where this plugin should operate; Rest of the World is optional: [12 — How to use each menu](12-SETUP-CONFIGURE-AND-TEST.md#how-to-add-the-delivery-shipping-method-in-woocommerce).
 
 **Expected result**  
 Address tests match the intended area.
@@ -436,7 +436,7 @@ Shipment staff training: [11 — Stage 14 shipments](11-STAGE-14-SHIPMENTS.md). 
 Advanced switches, Access matrix for subordinate roles without a policy decision.
 
 **Related**  
-WooCommerce **Delivery** shipping method on every zone, including Rest of the World: [12 — How to use each menu](12-SETUP-CONFIGURE-AND-TEST.md#how-to-add-the-delivery-shipping-method-in-woocommerce). Technical Support Appendix.
+WooCommerce **Delivery** shipping method on the zones where this plugin should operate (Rest of the World optional): [12 — How to use each menu](12-SETUP-CONFIGURE-AND-TEST.md#how-to-add-the-delivery-shipping-method-in-woocommerce). Technical Support Appendix.
 
 ---
 
